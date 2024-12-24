@@ -1,9 +1,41 @@
+h2 {
+ color: beige;
+
+}
+label {
+  color: beige;
+}
+
 h1 {
  font-size: 50px;
   text-align: center;
+  color: beige;
 }
+input[type=submit] {
+  background-image: linear-gradient(to right, #4b4b4b 0%, #000000  51%, #314755  100%);
+
+   margin: 5px;
+   padding: 10px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 2px 2px 2px #242323;
+   border-radius: 10px;
+   display: inline;
+   font-size: 10px;
+  text-decoration: none;
+}
+ 
+ 
+
+
+
+
+
 body {
-  background-color: rgba(0, 255, 221, 0.288);
+  background-color: rgb(0, 0, 0)
   
 }
 .para {
@@ -17,7 +49,7 @@ font-style: italic;
   justify-content:right;
   border-radius: 10px;
   border-width: 10px;
-  border-color: black;
+  border-color: beige;
   border: solid;
   
 }
@@ -30,14 +62,17 @@ font-style: italic;
 .img {
   margin-left: 20px;
     margin-bottom: 7px;
+    margin-top: 20px;
     float: right;
     height: 200px;
     border-width: 20px;
     border-radius: 30px;
-    border: solid grey 5px;
+    border: solid beige 5px;
 }
 .thecoolone {
-
+ border-radius: 10px;
+ border-width: 10px;
+  border: solid;
  text-align: justify;
 
 }
@@ -46,7 +81,7 @@ button {
   text-decoration: none;
 }
   
-button {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+button {background-image: linear-gradient(to right, #4b4b4b 0%, #000000  51%, #2c2c2c  100%)}
 button {
    margin: 5px;
    padding: 10px 15px;
@@ -55,7 +90,7 @@ button {
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 2px 2px 2px #242323;
+   box-shadow: 1px 1px 1px #242323;
    border-radius: 10px;
    display: inline;
  }
@@ -65,8 +100,53 @@ button {
    color: #fff;
    text-decoration: none;
  }
+p {
+ color: beige;
 
-   
+}
+.p1 {
+  color: beige;
+}
+/* .none {
+  border-style: none;
+}
+.hidden {
+  border-style: hidden;
+}
+.dotted {
+  border-style: dotted;
+}
+.dashed {
+  border-style: dashed;
+}
+.solid {
+  border-style: solid;
+}
+.double {
+  border-style: double;
+}
+.groove {
+  border-style: groove;
+}
+.ridge {
+  border-style: ridge;
+}
+.inset {
+  border-style: inset;
+}
+.outset {
+  border-style: outset;
+}
+<p class="none">no border</p>
+<p class="hidden">Hidden Border</p>
+<p class="dotted">Dotted Border</p>
+<p class="dashed">Dashed Border</p>
+<p class="solid">Solid border</p>
+<p class="double">Double Border</p>
+<p class="groove">Groove border</p>
+<p class="ridge">ridge border</p>
+<p class="inset">inset border</p>
+<p class="outset">Outset Border</p> */
   
 
 
